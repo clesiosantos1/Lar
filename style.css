@@ -65,7 +65,7 @@ nav a:hover{
 }
 .logo{
     width: 100px;
-    margin-right: 10px;
+
 }
 
 .menu{
@@ -96,4 +96,83 @@ nav a:hover{
 
 #letra{
     width: 6em;
+}
+.titulo{
+text-align: center;
+padding: 10px 25px;
+}
+
+.vai{
+
+display: flex;
+justify-content: center;
+
+
+}
+
+.color_orange{
+    color: #ffffff;
+    background-color: #ef4b3f;
+ font-size: 20px;
+ width: 15em;
+ text-align: center;
+ padding: 10px;
+ text-decoration: none;
+ border-radius: 5px;
+
+}
+
+.color_orange:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.clesio{
+margin-top: 10px;
+color: WHITE;
+
+}
+
+h2{
+    color: white;
+}
+
+.necessidade{
+    display: flex;
+    padding: 0px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+ 
+}
+
+.necessidade img{
+    border:  2px solid #ef4b3f;
+}
+
+
+.necessidade  img:hover{
+    box-sizing: border-box;
+    background-color: #222;
+}
+
+.outro{
+    text-align: center;
+    padding: 10px;
+}
+
+
+.sombra{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+#banner{
+  min-height: 34em;
 }
