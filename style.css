@@ -176,3 +176,60 @@ h2{
 #banner{
   min-height: 34em;
 }
+
+.div{
+    padding: 20px;
+}
+
+.santos{
+    text-align: center;
+}
+
+ .clesio123{
+display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ padding: 20px;
+}
+.item2{
+    background-color:  #ef4b3f;
+    min-height: 5em;
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.item2:hover{
+ color: #ef4b3f;
+ background-color: rgb(243, 238, 238);
+border: 1px solid #ef4b3f;
+margin-top: -10px;
+transition: 1s;
+}
+
+.link_anc{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .clesio123{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       
+    }
+
+    .item2{
+        padding: 10px;
+        margin: 50px;
+
+    }
+    .santos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
